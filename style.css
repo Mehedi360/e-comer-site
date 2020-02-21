@@ -1,0 +1,346 @@
+*{margin:0; padding: 0; outline: o;}
+body{font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+.clear{overflow: hidden;}
+
+
+a{color: #000; font-weight: bold; text-decoration: none;}
+
+
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+
+p{margin-bottom: 15px;}
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    background-color: #ddd;
+    overflow-x: hidden;
+}
+
+.fullcontainar{
+    margin: 0 auto;
+    width: 86%;
+    background: white;
+}
+
+.headersection{
+    height: 170px;
+    width: 100%;
+    background:white;
+}
+
+.headerleft{
+   color: #7d7d7d;
+   font-size: 25px; 
+   float: left;
+   margin-top:50px;
+   margin-left: 30px;
+}
+.headerright{
+    float: right;
+    margin-right: 50px;
+    margin-top: 60px;
+    border: 1px dotted #ddd;
+    
+}
+
+.headerright ul  {
+    margin: 0; padding:0; list-style-type: none;
+
+}
+.headerright ul li{
+    float: left;
+    display: block;
+    font-size: 20px;
+    padding: 30px;
+  
+}
+.headerright ul li a{
+    padding: 10px 20px;
+    font-weight: normal;
+    color:  #8a8a8a;
+    list-style-type: none;
+    
+}
+.headerright ul li a:hover{
+    color: #000;
+    border-bottom: 5px solid #09F;
+    border-left: none;
+  
+}
+
+.medalsection{
+   
+    margin-bottom: 50px;
+}
+.medalleft{
+    
+    background: white;
+    
+}
+.medalimage{float: left;
+    margin-top: 70px;
+    margin-left: 25px;
+    
+}
+.righttext{
+    float: left;
+    margin-top: 70px;
+    margin-left: 30px;
+    
+}
+.righttext h4{
+ font-size: 20px;
+ margin-bottom: 40px;
+}
+.righttext p{
+    line-height: 15px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.medal2{
+background: white;
+
+width: 370px;
+float: left;
+height:285px;
+border: 1px solid #ddd;
+
+margin-left:  15px;
+
+
+}
+
+
+.medal2 h3{
+    padding: 20px;
+    margin-top:50px;
+    margin-left: 50px;
+}
+.medal2 p{
+    margin-top: 20px;
+    margin-left: 50px;
+    line-height: 10px;
+
+}
+
+.medal2 a{
+float:right;
+margin-right: 40px;
+margin-top: 20px;
+background:#a76f6f;
+padding: 10px
+;
+}
+.medal2 a:hover{
+    background: rgb(226, 41, 41);
+}
+.allfare{
+width: 100%;
+height: 200px;   
+}
+
+.allfare  h2{
+
+    background: #a76f6f;
+    margin-top:50px;
+    margin-left: 40px;
+    padding:25px 132px 25px 105px;
+    margin-right: 612px
+}
+.lastimage{
+    margin-left:40px;
+    float: left;
+}
+
+.footer{
+    height: 90px;
+    width: 100%;
+}
+.footer p{
+    float: right;
+    margin-top: 40px;
+    margin-right: 30px;
+    color: #858282;
+}
+
+
+
+
+.sectionitam{
+   
+}
+.imgsection{float: left;
+margin-left: 60px;
+}
+.pragrapph{
+    float: left;
+    margin-left: 50px;
+    color: rgb(153, 150, 150);
+    border: 1px dotted #adacac;
+    padding: 20px;
+    
+}
+
+
+.imagsection{
+    margin-top: 40px;
+}
+
+.leftimag{
+    float: left;
+    margin-left: 70px;
+}
+
+.rightimag{float: left;
+    margin-left: 70px;}
+
+
+
+    
+
+.lastpragraph{
+
+}    
+
+.leftpra{
+float: left;
+margin-left: 80px;
+margin-top: 50px;
+color: rgb(153, 150, 150);
+}
+.rightpra{
+float: right;
+margin-right: 50px;
+margin-top: 50px;
+color: rgb(131, 128, 128);
+}
+
+.imgrsection{
+    margin-left: 50px;
+   
+}
+
+.imgse{
+    float: left;
+    margin-right: 30px;
+    
+
+}
+
+.imagbotsection{
+    margin-left: 80px;
+   
+}
+
+
+.imagbot{
+    float: left;
+    margin-right: 108px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.fullmelder{
+border: 1px solid #c5c3c3;
+float: left;
+padding: 40px 50px;
+margin-left: 60px;
+margin-bottom: 50px;
+
+
+}
+.filderimg{
+float: left;
+}
+.filderight{
+float: left;
+margin-left: 30px;
+color: #8a8888;
+}
+
+.laraimag{
+margin-left: 120px;
+}
+
+.limag{
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+.laspragraph{
+    margin-left: 130px;
+    color: #858282;
+    font-weight: normal;
+    
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(216, 16, 133);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a827c9;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+
+  }
+
